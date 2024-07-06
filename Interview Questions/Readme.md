@@ -2,7 +2,7 @@
 
 ### What changes came in the new in the new ES6 from ES5?
 
-1. Variable Declarations
+##### 1. Variable Declarations
 
 In `ES5`, variables are declared using var, which has function scope. This can lead to issues with variable hoisting and unintended behavior.
 
@@ -38,7 +38,7 @@ console.log(age); // Output: 25
 console.log(birthYear); // Output: 1999
 ```
 
-2. Arrow Functions
+##### 2. Arrow Functions
 
 Arrow functions, introduced in `ES6`, provide a shorter syntax for writing functions. They also lexically bind the this value, which is particularly useful for maintaining the correct context inside callbacks and event handlers.
 
@@ -78,7 +78,7 @@ const obj = {
 obj.increment();
 ```
 
-3. Template Literals
+##### 3. Template Literals
 
 Template literals, introduced in `ES6`, provide a more concise syntax for working with strings. They use backticks (`) instead of quotes, and variables are inserted using ${}.
 
@@ -111,7 +111,7 @@ console.log(multiline);
 // This is line 2.
 ```
 
-4. Default Parameters
+##### 4. Default Parameters
 
 In `ES5` Default parameter values are set using logical OR. Default parameters in `ES6` allow function parameters to have default values if no argument is provided or if undefined is passed.
 
@@ -132,7 +132,7 @@ console.log(greet()); // Output: Hello, Guest
 console.log(greet("John")); // Output: Hello, John
 ```
 
-5. Destructuring Assignment
+##### 5. Destructuring Assignment
 
 Destructuring assignment in `ES6` allows for easier extraction of values from arrays and objects.
 
@@ -166,7 +166,7 @@ console.log(first); // Output: 1
 console.log(second); // Output: 2
 ```
 
-6. Enhanced Object Literals
+##### 6. Enhanced Object Literals
 
 Enhanced object literals in `ES6` provide shorthand syntax for defining properties and methods in objects.
 
@@ -200,7 +200,7 @@ const person = {
 console.log(person.greet()); // Output: Hello, John
 ```
 
-7. Classes
+##### 7. Classes
 
 Classes in `ES6` provide a simple and concise way to define object classes in JavaScript. `ES6` introduced the class syntax, which provides a clearer and more concise way to create objects and handle inheritance.
 
@@ -235,7 +235,7 @@ const john = new Person("John", 25);
 console.log(john.greet()); // Output: Hello, John
 ```
 
-8. Modules
+##### 8. Modules
 
 `ES6` introduced native modules, allowing for modularization using the import and export keywords. In `ES5` Modules are implemented using libraries like RequireJS or by using the module pattern.
 
