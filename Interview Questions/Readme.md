@@ -60,7 +60,9 @@ var obj = {
   }
 };
 obj.increment();
+```
 
+```html
 // ES6
 const sum = (a, b) => a + b;
 
@@ -95,7 +97,9 @@ console.log(multiline);
 // Output: 
 // This is line 1.
 // This is line 2.
+```
 
+```html
 // ES6
 const name = "John";
 const greeting = `Hello, ${name}!`;
@@ -124,7 +128,8 @@ function greet(name) {
 
 console.log(greet()); // Output: Hello, Guest
 console.log(greet("John")); // Output: Hello, John
-
+```
+```html
 // ES6
 const greet = (name = "Guest") => `Hello, ${name}`;
 
@@ -151,7 +156,8 @@ var second = numbers[1];
 
 console.log(first); // Output: 1
 console.log(second); // Output: 2
-
+```
+```html
 // ES6
 const person = { name: "John", age: 25 };
 const { name, age } = person;
@@ -184,7 +190,8 @@ var person = {
 };
 
 console.log(person.greet()); // Output: Hello, John
-
+```
+```html
 // ES6
 const name = "John";
 const age = 25;
@@ -217,8 +224,8 @@ Person.prototype.greet = function() {
 
 var john = new Person("John", 25);
 console.log(john.greet()); // Output: Hello, John
-
-
+```
+```html
 // ES6
 class Person {
   constructor(name, age) {
@@ -240,6 +247,7 @@ console.log(john.greet()); // Output: Hello, John
 `ES6` introduced native modules, allowing for modularization using the import and export keywords. In `ES5` Modules are implemented using libraries like RequireJS or by using the module pattern.
 
 ```html
+// ES5
 // module.js
 var Module = (function() {
   var privateVar = "I am private";
@@ -253,7 +261,10 @@ var Module = (function() {
 
 // main.js
 console.log(Module.publicMethod()); // Output: I am private
+```
 
+```html
+// ES6
 // module.js
 export const greeting = "Hello, World!";
 
