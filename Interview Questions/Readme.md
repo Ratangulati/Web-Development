@@ -1,6 +1,6 @@
 # Interview Questions
 
-## What changes came in the new in the new ES6 from ES5?
+### What changes came in the new in the new ES6 from ES5?
 
 1. Variable Declarations
 
@@ -253,4 +253,12 @@ var Module = (function() {
 
 // main.js
 console.log(Module.publicMethod()); // Output: I am private
+
+// module.js
+export const greeting = "Hello, World!";
+
+// main.js
+import { greeting } from './module.js';
+console.log(greeting); // Output: Hello, World!
+```
 
